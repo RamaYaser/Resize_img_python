@@ -21,5 +21,6 @@ def resize_img(input_folder, output_folder, size):
 #example
 input_folder = input("please inter the path of your input folder:")
 output_folder = input("please inter the path of your output folder:")
-
-resize_img(input_folder, output_folder, (900,400))
+w=int(input("please inter the new width"))
+h=int(input("please inter the new hight"))
+resize_img(input_folder, output_folder, (w,h))
